@@ -20,13 +20,14 @@ export default function App() {
             style={styles.image}
           />
 
-          <Text style={styles.header}>My Portfolio</Text>
+          <Text style={styles.header}>Darrel Israel</Text>
+          <Text style={styles.italicText}>Information Systems Analyst I</Text>
           <View style={styles.profileSection}>
             <Text style={styles.italicText}>
               Passionate DevOps Engineer with a knack for solving unique
-              challenges. Integrating paperless-ngx with Docker for SOIS.
+              challenges. Integrated Paperless-ngx with Portainer for SOIS.
             </Text>
-            <Text style={styles.contactText}>Iloilo, PH</Text>
+            <Text style={styles.contactText}>QC, PH</Text>
             <Text style={styles.contactText}>+639757170951</Text>
             <Text style={styles.contactText}>f04c.dev</Text>
           </View>
@@ -61,6 +62,7 @@ export default function App() {
             </View>
           </View>
 
+          {/* Ads */}
           <View style={styles.imageSection}>
             <Image
               source={{
@@ -97,7 +99,7 @@ const styles = StyleSheet.create({
     fontSize: 36,
     fontWeight: "bold",
     color: "#333",
-    marginBottom: 20,
+    marginBottom: 1,
     textAlign: "center",
   },
   profileSection: {
